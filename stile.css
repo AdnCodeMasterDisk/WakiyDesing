@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(Ful-hd.png);
+    background-size: 100%;
+    width: 100%;
+    height: 11468px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1500px) {
+    body{
+        background-image: url(portatil.png);
+        height: 11468px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    body{
+        background-image: url(Mobile.png);
+        height: 11755px;
+    }
+  }
